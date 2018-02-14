@@ -1,0 +1,57 @@
+{
+  "labId": "vagrant_first_up",
+  "title": "Your first `vagrant up` of a Network Device",
+  "slug": "Bring up a network device for programmability and API exploration using Vagrant.",
+  "time": 20,
+  "byod": true,
+  "files": [
+    {"title": "Step 1: Initializing a New Environment",
+    "file":"1.md"},
+    {"title": "Step 2: Customizing the Vagrantfile",
+    "file": "2.md"},
+    {"title": "Step 3: Starting the Vagrant Environment",
+    "file": "3.md"},
+    {"title": "Step 4: Exploring the Environment",
+    "file": "4.md"},
+    {"title": "Step 5: Destroying the Environment",
+    "file": "5.md"},
+    {"title": "Summary",
+    "file": "6.md"}
+  ],
+  "tags": [
+    {"title": "SDN"},
+    {"title": "NetDevOps"},
+    {"title": "DevOps"},
+    {"title": "Open Source"},
+    {"title": "NX-OS"},
+    {"title": "IOS XE"},
+    {"title": "IOS XR"}
+  ],
+  "related": [
+    {
+    "labId": "vagrant_101",
+    "title": "Vagrant 101"
+    },
+    {
+    "labId": "vagrant_box_creation",
+    "title": "Creating Cisco Network Device Vagrant Boxes"
+    },
+    {
+    "labId": "vagrant_first_up",
+    "title": "Your first `vagrant up` of a Network Device"
+    },
+    {
+    "labId": "vagrant_multi_node",
+    "title": "Multi-Node Vagrant Environments"
+    },
+    {
+    "labId": "vagrant_ansible_prov",
+    "title": "Using the Ansible Provisioner with Vagrant"
+    }
+  ],
+  "authors": [
+      {"name": "Hank Preston", "email": "hapresto@cisco.com"}
+  ],
+  "active": true,
+  "moduleOnly": true
+}

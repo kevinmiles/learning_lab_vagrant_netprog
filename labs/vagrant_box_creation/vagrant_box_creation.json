@@ -1,0 +1,55 @@
+{
+  "labId": "vagrant_box_creation",
+  "title": "Creating Cisco Network Device Vagrant Boxes",
+  "slug": "Learn how to create Vagrant Boxes to act as templates for development environments.",
+  "time": 30,
+  "byod": true,
+  "files": [
+    {"title": "Step 1: Obtaining the Vagrant Network Programmability Resources",
+    "file":"1.md"},
+    {"title": "Step 2: Downloading Source Artifacts from Cisco",
+    "file": "2.md"},
+    {"title": "Step 3: Building the Box",
+    "file": "3.md"},
+    {"title": "Step 4: Adding the Box to Vagrant's Inventory ",
+    "file": "4.md"},
+    {"title": "Summary",
+    "file": "5.md"}
+  ],
+  "tags": [
+    {"title": "SDN"},
+    {"title": "NetDevOps"},
+    {"title": "DevOps"},
+    {"title": "Open Source"},
+    {"title": "NX-OS"},
+    {"title": "IOS XE"},
+    {"title": "IOS XR"}
+  ],
+  "related": [
+    {
+    "labId": "vagrant_101",
+    "title": "Vagrant 101"
+    },
+    {
+    "labId": "vagrant_box_creation",
+    "title": "Creating Cisco Network Device Vagrant Boxes"
+    },
+    {
+    "labId": "vagrant_first_up",
+    "title": "Your first `vagrant up` of a Network Device"
+    },
+    {
+    "labId": "vagrant_multi_node",
+    "title": "Multi-Node Vagrant Environments"
+    },
+    {
+    "labId": "vagrant_ansible_prov",
+    "title": "Using the Ansible Provisioner with Vagrant"
+    }
+  ],
+  "authors": [
+      {"name": "Hank Preston", "email": "hapresto@cisco.com"}
+  ],
+  "active": true,
+  "moduleOnly": true
+}
