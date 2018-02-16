@@ -1,0 +1,128 @@
+<div>
+  <p>
+    To work on this lab from your own machine, you'll need to meet the following
+    requirements.
+  </p>
+  <h2>Client Pre-Reqs</h2>
+  <ul>
+    <li>Python</li>
+      <ul>
+        <li>Python 2.7.10 or higher</li>
+        <li>Python 3.6.3 or higher</li>
+        <li>virtual environment (highly suggested but not required)</li>
+        <li>pip</li>
+      </ul>
+    <li>"git" command line tools</li>
+    <li>Vagrant</li>
+    <li>VirtualBox</li>
+    <li>Homebrew (Mac OS X)</li>
+    <!--<li>Platform Specific C++ Compiler</li>-->
+  </ul>
+
+  <h2>Workstation Setup Instructions</h2>
+  <p>
+    The labs in this module can be fully completed from an OS X or Linux workstation.
+    Most of the labs can be completed on a Windows workstation, however the lab
+    "<strong>Creating Cisco Network Device Vagrant Boxes</strong>" cannot.  If you are a Windows
+    user, you can complete that lab via the DevNet Sandbox and then copy the
+    created box file to your local workstation.
+    <br><br>
+    To assist with completion, here are some
+    suggested steps to prepare common platforms.
+  </p>
+  <p>
+    <em>If your environment requires a proxy server to access internet resources, be
+    sure that it is configured correctly on your system, and adjust any steps/commands
+    listed below as needed.</em>
+  </p>
+
+  <h3>CentOS Sample Setup Instructions Example</h3>
+
+      <ul>
+        <li>Standard Development Tools
+          <pre>sudo yum -y groupinstall development<pre>
+        </li>
+        <li>Python 3.6.2
+          <pre>
+# CentOS 7
+yum install -y gcc zlib-devel openssl-devel wget
+cd /usr/src
+wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz
+tar xzf Python-3.6.2.tgz
+cd Python-3.6.2
+./configure
+make altinstall
+          </pre>
+        </li>
+        <li>Python 2.7.14
+          <pre>
+# CentOS 7
+yum install -y gcc zlib-devel openssl-devel wget
+cd /usr/src
+wget https://www.python.org/ftp/python/2.7.14/Python-2.7.14.tgz
+tar xzf Python-2.7.14.tgz
+cd Python-2.7.14
+./configure
+make altinstall
+
+wget https://bootstrap.pypa.io/get-pip.py
+python2.7 get-pip.py
+          </pre>
+        </li>
+        <li>OpenSSL Development Library
+          <pre>sudo yum -y install openssl-devel</pre>
+        </li>
+        <li>Vagrant and VirtualBox
+          <pre>
+# Add yum Repos
+wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
+mv virtualbox.repo /etc/yum.repos.d
+yum install -y epel-release
+
+# Download Installation Files
+wget https://releases.hashicorp.com/vagrant/1.9.8/vagrant_1.9.8_x86_64.rpm
+
+# Install Dependencies
+yum install -y kernel-devel gcc kernel-devel-3.10.0-693.2.2.el7.x86_64
+
+# Install applications
+yum install -y VirtualBox-5.1
+yum install -y vagrant_1.9.8_x86_64.rpm
+          </pre>
+      </ul>
+
+  <h3>Mac OS X Installation</h3>
+
+      <ul>
+        <li>git installation - <a href="https://git-scm.com/download/mac" target="_blank">https://git-scm.com/download/mac</a> </li>
+        <li>Python 3.6 installation - <a href="https://www.python.org/downloads/release/python-364/" target="_blank">https://www.python.org/downloads/release/python-364/</a></li>
+        <li>Python 2.7 installation - <a href="https://www.python.org/downloads/release/python-2714/" target="_blank">https://www.python.org/downloads/release/python-2714/</a></li>
+        <li>Python pip installation
+          <pre>
+curl -o get-pip.py https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+          </pre>
+        </li>
+        <li>Command Line Developer Tools Installation. After running command, complete installation using the GUI.
+          <pre>
+xcode-select --install
+          </pre>
+        </li>
+        <li><a href="https://www.vagrantup.com/downloads.html" target="_blank">Vagrant Installation</a></li>
+        <li><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox Installation</a></li>
+        <li><a href="https://brew.sh" target="_blank">Homebrew Installation</a></li>
+      </ul>
+
+    <h3>Windows Installation</h3>
+
+      <ul>
+        <li>git installation - <a href="https://git-scm.com/download/win" target="_blank">https://git-scm.com/download/win</a></li>
+        <li>Python 3.6 installation - <a href="https://www.python.org/downloads/release/python-364/" target="_blank">https://www.python.org/downloads/release/python-364/</a><br></li>
+        <li>Python 2.7 installation - <a href="https://www.python.org/downloads/release/python-2714/" target="_blank">https://www.python.org/downloads/release/python-2714/</a><br>
+            <strong>Be sure to check box for "Add Python to PATH" during the installer</strong>
+        </li>
+        <li><a href="https://www.vagrantup.com/downloads.html" target="_blank">Vagrant Installation</a></li>
+        <li><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox Installation</a></li>
+      </ul>
+
+</div>
