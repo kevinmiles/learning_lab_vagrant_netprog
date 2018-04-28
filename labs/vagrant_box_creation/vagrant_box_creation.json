@@ -8,7 +8,7 @@
     {"title": "Introduction and Preperation",
     "file":"1.md"},
     {"title": "Step 1: Downloading Nexus 9000v Box from Cisco",
-    "file":"get-n9kv-box.md.md"},
+    "file":"get-n9kv-box.md"},
     {"title": "Optional Step: Obtaining Boxes for Other Platforms (IOS XE, IOS XR, NX-OS)",
     "file":"1a.md"},
     {"title": "Optional Step: Downloading Source Artifacts from Cisco",
