@@ -2,7 +2,7 @@
 
 For this lab, and following labs in this module, we will use the Nexus 9000v 7.0(3)I7(3) box that is available for download on Cisco.com.  
 
-> The Nexus 9000v downloads are available to download by anyone without any specific contacts with Cisco.
+> The Nexus 9000v downloads are available to download by anyone without any specific contracts with Cisco.
 
 Starting with the 7.0(3)I7(3) release, the NX-OS box images posted to CCO are ready to use without any additional preparation.  Earlier versions of the NX-OS boxes published on CCO require some final preparation to make them ready for use.  If you would like to have boxes for these earlier NX-OS versions, or IOS XE or IOS XR, the remaining **optional steps** in this lab will show you how to do so.  
 
